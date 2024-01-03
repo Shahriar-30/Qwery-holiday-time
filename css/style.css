@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+/* =============== fontfamily =========== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif !important;
+}
+a{
+    text-decoration: none !important;
+}
+ul li{
+    list-style-type: none;
+}
+/* ========= everytime this ===================== */
+/* ========== nav ========== */
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/banner.png);
+    background-position: center;
+    background-color: #000;
+    background-repeat: no-repeat;
+}
+.nav-item{
+    margin: 0 10px;
+}
+.nav-item a{
+    cursor: pointer;
+    font-size: 18px ;
+    font-weight: 600;
+    color: #fff;
+    transition: all .8s;
+}
+.nav-item a:hover{
+    color: #000;
+}
+/* ========== hero ========== */
+/* ============= hero_text ============= */
+.hero_text{
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+}
+.hero_text h3{
+    color: #FFC178;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 7px;
+}
+.hero_text h1{
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 100px;
+}
+.hero_text h1 span{
+    font-size: 88px;
+    font-weight: 400;
+    line-height: 100px;
+}
+/* ============= hero_text ============= */
+/* ================ holiday ================ */
+.holiday{
+    height: 200vh;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.holiday_img img{
+    height: 500px;
+}
+.holiday_text h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FBD784;
+    letter-spacing: 6px;
+}
+.holiday_text h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: #fff;
+}
+.holiday_text p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 32px;
+}
+.holiday_text a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FBD784;
+}
+/* ================ holiday ================ */
+/* ================== mountaine ==================== */
+.mountaine{
+    width: 100%;
+    height: 120vh;
+    background-color: #000;
+}
+.mountaine_text{
+    background-image: url(../img/mountin.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 110vh;
+    padding-bottom: 30px;
+}
+.mountaine_text h3{
+    color: #FBD784;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.mountaine_text h1{
+    color: #fff;
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.mountaine_text p{
+    color: #fff;
+    font-size: 13px;
+    line-height: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.mountaine_text a{
+    color: #FBD784;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/* ================== mountaine ==================== */
+/* ================== friends ==================== */
+.friends{
+    width: 100%;
+    height: 120vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+.friends_text h3{
+    font-size: 18px;
+    letter-spacing: 6px;
+    font-weight: 700;
+    color: #FBD784;
+}
+.friends_text h1{
+    font-size: 54px;
+    font-weight: 700;
+    color: #fff;
+}
+.friends_text p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #fff;
+}
+.friends_text a{
+    color: #FBD784;
+    font-size: 18px;
+    font-weight: 700;
+}
+.friends_img img{
+    height: 80vh;
+}
+/* ================== friends ==================== */
+/* ================== footer ==================== */
+.footer{
+    height: 80vh;
+    width: 100%;
+    background-color: #000;
+}
+.footer_img img{
+    width: 70px;
+}
+.footer_text{
+    align-items: center;
+    justify-content: flex-end;
+}
+.footer_text h3{
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: -0.3px;
+}
+.footer_text a{
+    background-color: #FFA343;
+    color: #000;
+    padding: 5px 32px;
+    border-radius: 14px;
+    margin: 0 5px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.sub_footer{
+    position: relative;
+    top: 80px;
+}
+.sFooter_text h1{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+}
+.sFooter_text h4{
+    font-size: 15px;
+    font-weight: 400px;
+    color: #fff;
+    letter-spacing: -0.2px;
+    padding: 50px 0;
+}
+.sFooter_text .sFT_social i{
+    color: #fff;
+    padding: 10px 5px;
+}
+.menu_all {
+    padding-left: 0rem !important;
+}
+.sFooter_menu h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFD1A0;
+    letter-spacing: -0.23px;
+}
+.menu_all li{
+    padding: 5px 0;
+}
+.menu_all li a{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+}
+.copy{
+    position: relative;
+    bottom: -150px;
+}
+.copyRight{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #fff;
+}
+/* ================== footer ==================== */
